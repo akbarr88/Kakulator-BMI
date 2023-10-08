@@ -1,0 +1,87 @@
+        body {
+            font-family: "poppins";
+            background-color: aliceblue;
+        }
+
+        #bmi-headers p {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            margin: 10px 0;
+            color: #333;
+            text-align: justify;
+        }
+
+        h2 {
+            text-align: center;
+            justify-content: center;
+            position: relative;
+            top: 80px;
+            color: #333;
+            font-size: medium;
+        }
+
+        .container {
+            width: 500px;
+            height: 250px;
+            margin: 0 auto;
+            text-align: center;
+            background: linear-gradient(to bottom right, #328fff, #3737ce);
+            border-radius: 15px;
+            position: relative;
+            top: 100px;
+        }
+        .container:hover{
+            transform: scale(1.1);
+            box-shadow: 0 0 10px 5px #85cbfc;
+            transition: transform 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .container:not(:hover) {
+            transform: none; 
+            transition: all 0.3s ease-in-out;
+          }
+
+        #berat {
+            position: relative;
+            top: 30px;
+            border-radius: 5px;
+            left: 15px;
+        }
+
+        #tinggi{
+            position: relative;
+            top: 30px;
+            border-radius: 5px;
+            left: 10px;
+        }
+
+        label {
+            position: relative;
+            top: 30px;
+        }
+
+        button{
+            width: 100px; 
+            height: auto; 
+            font-size: 14px; 
+            padding: 5px 10px; 
+            position:relative;
+            top: 110px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        button:hover {
+            background-color: #19bad7;
+            color: white;
+        }
+
+        header {
+            color: #333;
+            text-align: center;
+        }
+
+        #result {
+            font-weight: bold;
+        }
